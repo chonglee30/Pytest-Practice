@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated test reports
+report.html
+report1.html
+
+# Optional scratch folders
+stuff/
+practice/
+
+# Environments & secrets
+.env
+.venv/
+venv/
+
+# Only track .py files inside stuff/
+stuff/*
+!stuff/
+!stuff/*.py
+!stuff/**/*.py
